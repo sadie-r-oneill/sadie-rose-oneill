@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c2420;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1714;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c9a84c;stop-opacity:1" />
+      <stop offset="55%" style="stop-color:#e8642a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c4521e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="6" fill="url(#bgGrad)"/>
+
+  <!-- Top accent line -->
+  <line x1="10" y1="11" x2="54" y2="11" stroke="#e8642a" stroke-width="0.8" opacity="0.45"/>
+
+  <!-- SRO centered vertically between the two lines -->
+  <text
+    x="32"
+    y="40"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="22"
+    font-weight="700"
+    font-style="italic"
+    text-anchor="middle"
+    fill="url(#textGrad)"
+    letter-spacing="1.5"
+  >SRO</text>
+
+  <!-- Bottom accent line — mirrored spacing from bottom as top line from top -->
+  <line x1="10" y1="53" x2="54" y2="53" stroke="#e8642a" stroke-width="0.8" opacity="0.45"/>
+</svg>
