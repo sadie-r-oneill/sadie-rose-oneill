@@ -45,7 +45,7 @@ button{font-family:inherit;}
 .cursor-glow{position:fixed;top:0;left:0;pointer-events:none;z-index:9997;width:100px;height:100px;border-radius:50%;background:radial-gradient(circle,rgba(232,100,42,.42) 0%,rgba(201,168,76,.18) 40%,transparent 70%);transform:translate(-50%,-50%);will-change:left,top;mix-blend-mode:screen;filter:blur(7px);}
 .cursor-knife{position:fixed;top:0;left:0;pointer-events:none;z-index:9999;width:46px;height:46px;transform:translate(-5px,-5px) rotate(40deg);filter:drop-shadow(0 0 7px rgba(232,100,42,.65)) drop-shadow(0 2px 10px rgba(0,0,0,.9));will-change:left,top;}
 .cursor-knife svg{width:46px;height:46px;display:block;}
-@media(hover:none){.cursor-glow{display:none;}body{cursor:auto;}.cursor-knife{display:block;position:fixed;top:24px;right:24px;left:auto;transform:rotate(40deg);pointer-events:none;}}
+@media(hover:none){.cursor-glow{display:none;}body{cursor:auto;}.cursor-knife{display:none;}}
 
 /* ══ NAV ══ */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:18px clamp(20px,4vw,48px);display:flex;justify-content:space-between;align-items:center;}
@@ -437,7 +437,7 @@ footer span{font-size:.5rem;letter-spacing:.14em;color:rgba(245,240,232,.18);tex
   </button>
   <ul class="nav-links" id="navLinks" role="list">
     <li><a href="#solo"    onclick="closeNav()">Solo</a></li>
-    <li><a href="#music"   onclick="closeNav()">Works</a></li>
+    <li><a href="#music"   onclick="closeNav()">Collabs</a></li>
     <li><a href="#press"   onclick="closeNav()">Press</a></li>
     <li><a href="#videos"  onclick="closeNav()">Videos</a></li>
     <li><a href="#contact" onclick="closeNav()">Contact</a></li>
